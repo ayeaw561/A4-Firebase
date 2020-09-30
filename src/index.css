@@ -71,13 +71,13 @@ label:hover{
 }
 
 /* image grid styles */
-.img-grid{
+.image-grid{
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
-.img-wrap{
+.image-wrap{
   overflow: hidden;
   height: 0;
   padding: 50% 0;
@@ -85,7 +85,7 @@ label:hover{
   position: relative;
   opacity: 0.8;
 }
-.img-wrap img{
+.image-wrap img{
   min-width: 100%;
   min-height: 100%;
   max-width: 150%;
